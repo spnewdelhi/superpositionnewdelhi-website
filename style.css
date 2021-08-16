@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar {
+  transition: all 0.4s;
+  font-family: 'Poppins', sans-serif;
+  background-color: #A4B6FA
+}
+
+.navbar .nav-link {
+  color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+/* Change navbar styling on scroll */
+.navbar.active {
+  background: #A4B6FA;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+.navbar.active .nav-link {
+  color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: #555;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar.active .navbar-brand {
+  color: #555;
+}
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+  .navbar {
+    background: #fff;
+  }
+
+  .navbar .navbar-brand, .navbar .nav-link {
+    color: black;
+  }
+}
+
+.header {
+  margin-right: 80px;
+  margin-left: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    margin-left: 20px;
+    margin-bottom: 70px;
+  }
+}
+
+.header img {
+  margin-top: 150px;
+  float: right;
+  width: auto;
+  height: 350px;
+  display: inline;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .header img {
+    height: 200px;
+    margin-top: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header img {
+    display: none;
+  }
+}
+
+.header h1 {
+  margin-top: 200px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .header h1 {
+    margin-right: 0px;
+    font-size: 40px;
+  }
+}
+
+.main-button {
+  margin-top: 10px;
+  padding: 13px 15px;
+  font-size: 17px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #A4B6FA;
+  border: none;
+  border-radius: 25px;
+}
+
+.main-button:hover {
+  background-color: #c4d1ff;
+  text-decoration: underline;
+}
+
+.main-button a {
+  color: #fff;
+}
+
+.main-button a:hover {
+  color: #fff;
+}
+
+.main-img {
+  width: 100%;
+  height: auto;
+}
+
+/* SOCIAL MEDIA BAR */
+.icon-bar {
+  position: fixed;
+  top: 40%;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(0%);
+  right: 0;
+  z-index: 9999 !important;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  : all 0transition.4s ease;
+  color: white;
+  font-size: 20px;
+  background-color: #C1DCF9;
+}
+
+@media screen and (max-width: 800px) {
+  .icon-bar a {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+.icon-bar a:hover {
+  color: #A4B6FA;
+}
+
+.instagram {
+  color: white;
+  border-radius: 15px 0px 0px 0px;
+}
+
+.linkedin {
+  color: white;
+}
+
+.email {
+  color: white;
+  border-radius: 0px 0px 0px 15px;
+}
